@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html>
+<title>Fabric Server-Side Mods</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body, h1, h2, h3, h4, h5, h6  {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+</style>
+<link rel="stylesheet" href="https://fabricmc.dev/themes/2020-milk.css">
+<body>
+
+<div class="w3-bar w3-theme w3-large">
+ <div class="w3-container w3-content" style="padding:12px;padding-left:2rem;padding-right:2rem;">
+ <a href="https://fabricmc.dev" class="w3-mobile" style="text-decoration:none;coalor:white;color:inherit;font-size:1.7rem"><img src="https://fabricmc.net/assets/logo.png" width="48"></img> Fabric</a>
+  <div id="li" class="w3-theme-l1" style="float:right;position:relative;vertical-align:middle;margin-top:6px;border-radius:38px;">
+  <a href="https://fabricmc.dev/use" class="w3-bar-item w3-button w3-mobile">download</a>
+  <a href="https://fabricmc.net/blog" target="_blank" class="w3-bar-item w3-button w3-mobile" style="border-left-radius:1rem">blog</a>
+  
+  <a href="#" class="w3-bar-item w3-button w3-mobile">wiki</a>
+  </div>
+ </div>
+</div>
+
+<div class="w3-container w3-auto">
+
+<h1 id="fabric-server-side-mods">Fabric Server-side Mods</h1>
+<p>
+    This is a list of <i>(most)</i> Server-Side Mods for Fabric.
+</p>
+
+<h2 id="api">API</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-fabric">Architectury</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api">Fabric API</a></li>
+    <li><a href="https://modrinth.com/mod/icommon">ICommon</a></li>
+</ul>
+
+<h2 id="building">World Manipulation</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/worldedit">World Edit</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/shapes-edit">Shapes Edit</a></li>
+</ul>
+<h2 id="performance">Performance</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/phosphor">Phosphor</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/lithium">Lithium</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric">Fast Furnace for Fabric</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet">Carpet</a></li>
+    <li><a href="https://github.com/astei/krypton">Krypton</a></li>
+    <li><a href="https://modrinth.com/mod/starlight">Starlight</a></li>
+    <li><a href="https://modrinth.com/mod/lazydfu">LazyDFU</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric">FerriteCore</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/recipe-cache">Recipe Cache</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/thallium">Thallium (entity collision)</a></li>
+    <li><a href="https://modrinth.com/mod/worldspecificviewdistance">World Specific View Distance</a></li>
+    <li><a href="https://modrinth.com/mod/custom-item-range-combination">Custom Item Range Combination</a></li>
+    <li><a href="https://modrinth.com/mod/alternate-current">Alternate Current</a></li>
+    <li><a href="https://modrinth.com/mod/ticktools">TickTools</a></li>
+    <li><a href="https://github.com/RelativityMC/C2ME-fabric">C2ME</a></li>
+    <li><a href="https://github.com/WearBlackAllDay/DimensionalThreading">DimensionalThreading</a></li>
+    <li><a href="https://modrinth.com/mod/servercore">ServerCore</a></li>
+    <li><a href="https://modrinth.com/mod/ksyxis">Ksyxis</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/overworld-two">Overworld Two</a></li>
+    <li><a href="https://modrinth.com/mod/entity-view-distance">Entity View Distance</a></li>
+</ul>
+<h2 id="bugfixes">Fixes</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet">Carpet</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-tis-addition">Carpet TIS Addition</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/wither-cage-fix">Wither Cage Fix</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabrication">Fabrication</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/illegal-stack-fixer">Illegal Stacks Fix</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/chunk-saving-fix">Chunk Saving Fix</a></li>
+    <li><a href="https://github.com/PotatoPresident/TimeOutOut">TimeOut Out</a></li>
+    <li><a href="https://modrinth.com/mod/boat-fall">Boat Fall</a></li>
+    <li><a href="https://modrinth.com/mod/antishulkerdupe">AntiShulkerDupe</a></li>
+</ul>
+<h2 id="utility-quality-of-life">Util</h2>
+<ul>
+    <li><a href="https://modrinth.com/mod/rch">Simple Right Click Harvest</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-signs-and-frames">Better Signs</a></li>
+    <li><a href="https://github.com/TheEpicBlock/baila">Baila</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/suitably-stackable-stew">Suitably Stackable Stew</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/i-am-very-smart">I Am Very Smart</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/monsters-in-the-closet">Monsters in the Closet</a></li>
+    <li><a href="https://modrinth.com/mod/creative-one-punch">Creative One-Punch</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/clumps">Clumps</a></li>
+    <li><a href="https://modrinth.com/mod/healthcare">HealthCare</a></li>
+    <li><a href="https://modrinth.com/mod/playtime-tracker">Playtime Tracker</a></li>
+    <li><a href="https://modrinth.com/mod/editsign">EditSign</a></li>
+    <li><a href="https://modrinth.com/mod/egg-of-capitalism">Egg Of Capitalism</a></li>
+    <li><a href="https://modrinth.com/mod/easy_painter">Easy Painter</a></li>
+    <li><a href="https://modrinth.com/mod/polydex">Polydex</a></li>
+</ul>
+<h3 id="cosmetic">Cosmetics</h3>
+<ul>
+    <li><a href="https://modrinth.com/mod/lyiXgXNm">Immersive Cursedness</a></li>
+    <li><a href="https://modrinth.com/mod/invisible-armor-stands">Invisible Armor Stands</a></li>
+    <li><a href="https://modrinth.com/mod/server-hats">Server Hats</a></li>
+    <li><a href="https://github.com/PotatoPresident/simplehat">simplehat</a></li>
+    <li><a href="https://github.com/AquUpd/hat-command">Hat command</a></li>
+</ul>
+<h3 id="tree-leaf-removal-decay">Leaf Decay</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/leaf-decay">Leaf Decay</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/leaf-me-alone">Leaf Me Alone</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-tree-chopper">Fabric Tree Chopper</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/trees-do-not-float">Trees Do Not Float</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/falling-tree">Falling Tree</a></li>
+    <li><a href="https://modrinth.com/mod/fastdecay">FastDecay</a></li>
+    <li><a href="https://modrinth.com/mod/treefeller">TreeFeller</a></li>
+    <li><a href="https://modrinth.com/mod/treefelling">Tree Felling</a></li>
+</ul>
+<h2 id="tweaks">Tweaks</h2>
+<h3 id="combat">Combat</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/combatedit">CombatEdit</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/headshot">Headshot</a></li>
+    <li><a href="https://www.modrinth.com/mod/YouCantDamageMe">YouCantDamageMe</a></li>
+    <li><a href="https://github.com/manyrandomthings/pvp-toggle">PvP toggle</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/attackspeedplus-fabric">AttackSpeedPlus</a></li>
+    <li><a href="https://modrinth.com/mod/axes-are-weapons">Axes Are Weapons</a></li>
+    <li><a href="https://modrinth.com/mod/perfect-accuracy">Perfect Accuracy</a></li>
+    <li><a href="https://modrinth.com/mod/fabricpvp">FabricPvP</a></li>
+    <li><a href="https://modrinth.com/mod/infinity_fix">Infinity Fix</a></li>
+    <li><a href="https://modrinth.com/mod/snowballs-hit-players">Snowballs Hit Players</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/snowball-and-egg-knockback-fabric">Snowball and Egg Knockback</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/freezma">Freezma</a></li>
+    <li><a href="https://modrinth.com/mod/set-bonuses">Set Bonuses</a></li>
+    <li><a href="https://modrinth.com/mod/lifesteal">Steal Life</a></li>
+</ul>
+<h3 id="enchanting-enchantments">Enchantments</h3>
+<ul>
+    <li><a href="https://modrinth.com/mod/expanded-axe-enchanting">Expanded Axe Enchanting</a></li>
+    <li><a href="https://modrinth.com/mod/expanded-armor-enchanting">Expanded Armor Enchanting</a></li>
+    <li><a href="https://modrinth.com/mod/expanded-weapon-enchanting">Expanded Weapon Enchanting</a></li>
+    <li><a href="https://modrinth.com/mod/expanded-trident-enchanting">Expanded Trident Enchanting</a></li>
+    <li><a href="https://modrinth.com/mod/better-than-mending">Better Than Mending</a></li>
+    <li><a href="https://modrinth.com/mod/unbreakable">Unbreakable Enchantment</a></li>
+    <li><a href="https://modrinth.com/mod/WC4UgDcZ">Grind Enchantments</a></li>
+    <li><a href="https://modrinth.com/mod/highlevelenchants">High Level Enchants</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/disable-riptide">Disable Riptide</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/overpowered-mending">Overpowered Mending</a></li>
+    <li><a href="https://modrinth.com/mod/featherfallflying">Feather Fall Flying</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-impaling">Better Impaling</a></li>
+    <li><a href="https://modrinth.com/mod/sharpness6">Sharpness VI</a></li>
+</ul>
+<h3 id="mobs">Mobs</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/environmental-creepers">Environmental Creepers</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/no-ambient-mobs">No Ambient Mobs</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/mobcapped">MobCapped</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/daylight-mobs">Daylight Mobs</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/daylight-mobs-reborn">Daylight Mobs Reborn</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/beacons-for-all-fabric">Beacons For All</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/steed-stopper">Steed Stopper</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/no-striders">No Striders</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/farsighted-mobs">Farsighted Mobs</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/custom-spawns">Custom Spawns</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/always-drop-loot">Always Drop Loot</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/playerless">playerless</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/the-loved-ones">The Loved Ones</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/pigless-portals">Pigless Portals</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/chicken-nerf">Chicken Nerf</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/camp-fires-cook-mobs">Camp Fires Cook Mobs</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/custom-piglin-bartering">Custom Piglin Bartering</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/peaceful-skeletons-fabric">Peaceful Skeletons</a></li>
+    <li><a href="https://modrinth.com/mod/mob-blindness">Mob Blindness</a></li>
+    <li><a href="https://modrinth.com/mod/CreepersBurn">Creepers Burn</a></li>
+    <li><a href="https://modrinth.com/mod/FabricNoMobGrief">FabricNoMobGrief</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-per-player-spawns">Per Player Spawns</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/proper-mobcap-modifier-fabric">Proper Mobcap Modifier</a></li>
+    <li><a href="https://modrinth.com/mod/betterleads">BetterLeads</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/no-creeper-holes">No Creeper Holes!</a></li>
+    <li><a href="https://modrinth.com/mod/apathy">Apathy</a></li>
+    <li><a href="https://modrinth.com/mod/horse-stonks">Horse Stonks</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/mob-rebirth">Mob Rebirth</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/hauling-hogs">Hauling Hogs</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/stop-strider-suffering">Stop Strider Suffering</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/endermen-are-friends">Endermen are Friends</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/unsaddle-pigs">Unsaddle Pigs</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/mobs-attempt-parkour">Mobs Attempt Parkour</a></li>
+    <li><a href="https://modrinth.com/mod/neutral-animals">Neutral Animals</a></li>
+    <li><a href="https://modrinth.com/mod/neutral-mobs">Neutral Mobs</a></li>
+    <li><a href="https://modrinth.com/mod/farmable-shulkers">Farmable Shulkers</a></li>
+    <li><a href="https://modrinth.com/mod/fishy-bears">Fishy Bears</a></li>
+    <li><a href="https://modrinth.com/mod/mobproofcrystals">Mob proof crystals</a></li>
+    <li><a href="https://modrinth.com/mod/indypets">Independent Pets</a></li>
+    <li><a href="https://modrinth.com/mod/fatal-blow">Fatal Blow</a></li>
+    <li><a href="https://modrinth.com/mod/mobgrief">mobgrief</a></li>
+    <li><a href="https://modrinth.com/mod/more_mob_drops">More Mob Drops</a></li>
+    <li><a href="https://modrinth.com/mod/nmbs">No More Bleeding Sheep</a></li>
+    <li><a href="https://modrinth.com/mod/naflwu">No Angy Fwom Looky Wooky UwU</a></li>
+    <li><a href="https://modrinth.com/mod/damage-incorporated">Damage Incorporated</a></li>
+    <li><a href="https://modrinth.com/mod/mob-spawning-light-level">Mob Spawning Light Level</a></li>
+    <li><a href="https://modrinth.com/mod/healthdisplay">FabricHealthDisplay</a></li>
+    <li><a href="https://modrinth.com/mod/wrangler">Wrangler</a></li>
+    <li><a href="https://modrinth.com/mod/horsebuff">Horse Buff</a></li>
+    <li><a href="https://modrinth.com/mod/random-wool-color-sheep-drop">Random Wool Sheep Drop</a></li>
+    <li><a href="https://modrinth.com/mod/epic-horse-breed">Epic Horse Breed</a></li>
+    <li><a href="https://modrinth.com/mod/creeper-ai-updated">Creeper AI Updated</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/no-mob-farm">No Mob Farms</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/mob-filter">Mob Filter</a></li>
+</ul>
+<h3 id="villagers">Villages</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/villagerfix">VillagerFix</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/infinitevillagertrading">InfiniteVillagerTrading</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/economical-villager-trading">Economical Villager Trading</a></li>
+    <li><a href="https://modrinth.com/mod/hungyvillagers">Hungy Villager</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/villager-see-villager-do">Villager See, Villager Do</a></li>
+    <li><a href="https://modrinth.com/mod/wandering-collector">Wandering Collector</a></li>
+    <li><a href="https://modrinth.com/mod/villagers-follow-emeralds-fabric">Villagers Follow Emeralds</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/villagertradefix">VillagerTradeFix</a></li>
+    <li><a href="https://modrinth.com/mod/roundaround-villager-converting">Roundaround&#39;s Villager Converting</a></li>
+    <li><a href="https://modrinth.com/mod/zombify">Zombify</a></li>
+</ul>
+<h3 id="flight">Flying</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/totallybalancedcreativeflying">Totally Balanced Creative Flying</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/disable-elytra-flight">Disable Elytra Flight</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/survival-flight">Survival Flight</a></li>
+</ul>
+<h3 id="minecarts">Minecarts</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/speed-carts">Speed Carts</a></li>
+    <li><a href="https://modrinth.com/mod/tatercart">TaterCart</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/audaki-cart-engine">Audaki Cart Engine</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/cart-boosts">Cart Boosts</a></li>
+    <li><a href="https://modrinth.com/mod/subspace-train">Subspace train</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/block-under-fast-minecart">Block Under Fast Minecart</a></li>
+</ul>
+<h3 id="game-mechanics-tweaks">Game Mechanics Tweaks</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fluid-physics">Fluid Physics</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/realistic-fire-spread">Realistic Fire Spread</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet">Carpet</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-extra">Carpet Extra</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-tis-addition">Carpet TIS Addition</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/unlimited-dragon-eggs-fabric">Unlimited Dragon Eggs</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/push-to-craft">Push To Craft</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/lengthy-ladders">Lengthy Ladders</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/lapis-reserve">Lapis Reserve</a></li>
+    <li><a href="https://modrinth.com/mod/persistent-entities">persistent entities</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fenceplayerupper">Fence Player Upper</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/bedrockblocks">Bedrock Blocks</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/lid-space">Lid Space</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/ticktock">TickTock</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/experience-beacons-for-carpet">Experience Beacons for Carpet</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabrication">Fabrication</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/instant-fertilization">Instant Fertilization</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/silky-spawners">Silky Spawners</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/lightning-prevention">Lightning Prevention</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fires-survival-tweaks">Fire&#39;s Survival Tweaks</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/slipperywalls">SlipperyWalls</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/sewing-machine-utilities">Sewing Machine Utilities</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/dispenser-configurator">Dispenser Configurator</a></li>
+    <li><a href="https://github.com/manyrandomthings/minitweaks">Mini Tweaks</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/no-sneaking-over-magma">No Sneaking Over Magma</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/trample-stopper-fabric">Trample Stopper</a></li>
+    <li><a href="https://modrinth.com/mod/dropspread">Drop Spread</a></li>
+    <li><a href="https://modrinth.com/mod/burninator">Burninator</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/trampledisabler-fabric">TrampleDisabler</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/make-every-biome-spawnable-lol">Make Every Biome Spawnable Lol</a></li>
+    <li><a href="https://modrinth.com/mod/fallingblocktweaks">Falling Block Tweaks</a></li>
+    <li><a href="https://modrinth.com/mod/block-physics">Block Physics</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/context-specific-immunity">Context-Specific Immunity</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/quickcarpet">QuickCarpet</a></li>
+    <li><a href="https://modrinth.com/mod/disable-portals">Disable Portals</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/spawner-config">Spawner Config</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/bedrock-destroyer">Bedrock Destroyer</a></li>
+    <li><a href="https://modrinth.com/mod/paradox-slabs">ParadoxSlabs</a></li>
+    <li><a href="https://modrinth.com/mod/powershot">Powershot</a></li>
+    <li><a href="https://modrinth.com/mod/better-beacon">Better Beacon</a></li>
+    <li><a href="https://modrinth.com/mod/spice-of-fabric">Spice of Fabric</a></li>
+    <li><a href="https://modrinth.com/mod/no-teleport-cooldown">No Teleport Cooldown</a></li>
+    <li><a href="https://modrinth.com/mod/difficultytweaker">Difficulty Tweaker</a></li>
+    <li><a href="https://modrinth.com/mod/better-nether-map">Better Nether Map</a></li>
+    <li><a href="https://modrinth.com/mod/grindstone-is-made-of-stone">Grindstone Is Made Of Stone</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/scaffold-forever">Scaffold Forever</a></li>
+    <li><a href="https://modrinth.com/mod/sticky-elytra">Sticky Elytra</a></li>
+    <li><a href="https://modrinth.com/mod/nocap">No Cap</a></li>
+    <li><a href="https://github.com/StoneLabs/golemf">GolemF</a></li>
+    <li><a href="https://github.com/StoneLabs/iceboatf">IceBoatF</a></li>
+    <li><a href="https://github.com/StoneLabs/delayed-respawn">Delayed Respawn</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/piston-push-limit">Piston push limit</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/interdimensional-map-markers">Interdimensional Map Markers</a></li>
+    <li><a href="https://modrinth.com/mod/bettermossimo">Better Moss IMO</a></li>
+    <li><a href="https://modrinth.com/mod/offday">Offline Daytime</a></li>
+    <li><a href="https://modrinth.com/mod/filledtothebrim">FilledToTheBrim</a></li>
+    <li><a href="https://modrinth.com/mod/replant-swamp-trees">Replant Swamp Trees</a></li>
+    <li><a href="https://modrinth.com/mod/silky-hands">Silky hands</a></li>
+    <li><a href="https://modrinth.com/mod/horizontalportals">Horizonal Portals</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/cooperative-advancements-fabric">Cooperative Advancements</a></li>
+    <li><a href="https://modrinth.com/mod/anvil-crush">Anvil Crush</a></li>
+    <li><a href="https://modrinth.com/mod/deepslategenerator">DeepslateGenerator</a></li>
+    <li><a href="https://modrinth.com/mod/hardened-crops">Hardened Crops</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/copper-hopper">Copper Hopper</a></li>
+</ul>
+<h3 id="new-game-mechanics">New Game Mechanics</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/flora-doubling-fabric">Flora Doubling</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet">Carpet</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-extra">Carpet Extra</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-tis-addition">Carpet TIS Addition</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fastgrowth">FastGrowth</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/dance-of-growth">Dance of Growth</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/chain-suspension">Chain Suspension</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/harmful-stonecutters">Harmful Stonecutters</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/splash-concrete">Splash Concrete</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/imbued-torches">Imbued Torches</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/punch2prime">Punch2Prime</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabrication">Fabrication</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/unforgiving-void">Unforgiving Void</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/pisces">Pisces</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fires-survival-tweaks">Fire&#39;s Survival Tweaks</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/home-camp">Home Camp</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/sewing-machine-utilities">Sewing Machine Utilities</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/snowy">Snowy</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/infinity-water-bucket">Infinity Water Bucket</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/ghastly-wail">Ghastly Wail</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/stitchedsnow">StitchedSnow</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/notchify">Notchify</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/compostable-rotten-flesh">Compostable Rotten Flesh</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/quickcarpet">QuickCarpet</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/slimyfloor">SlimyFloor</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/playerpig">PlayerPig</a></li>
+    <li><a href="https://modrinth.com/mod/sit">FabricSit</a></li>
+    <li><a href="https://modrinth.com/mod/ext">Extension</a></li>
+    <li><a href="https://modrinth.com/mod/vanessence">Vanessence</a></li>
+    <li><a href="https://modrinth.com/mod/no-magic-milk">No More Magic Milk</a></li>
+    <li><a href="https://modrinth.com/mod/victorian-gewgaws">Victorian Gewgaws</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/snow-under-trees-fabric">Snow Under Trees</a></li>
+    <li><a href="https://modrinth.com/mod/servshred">ServShred</a></li>
+    <li><a href="https://github.com/StoneLabs/strains-of-ascension">Strains of Ascension</a></li>
+    <li><a href="https://modrinth.com/mod/mechafact">Mechanical Factory</a></li>
+    <li><a href="https://modrinth.com/mod/servback">Server Backpacks</a></li>
+    <li><a href="https://modrinth.com/mod/jankaddons">JankAddons</a></li>
+    <li><a href="https://modrinth.com/mod/snowy-trees">Snowy Trees</a></li>
+</ul>
+<h3 id="cauldrons">Cauldrons</h3>
+<ul>
+    <li><a href="https://modrinth.com/mod/easierpowdersnow">Easier Powdered Snow</a></li>
+    <li><a href="https://modrinth.com/mod/cauldronconcrete">Cauldron Concrete</a></li>
+    <li><a href="https://modrinth.com/mod/cauldron-fix">Cauldron Fix</a></li>
+    <li><a href="https://modrinth.com/mod/fabric-dispenser-cauldron">Dispenser Cauldron</a></li>
+</ul>
+<h3 id="dispensers">Dispensers</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-dispensers">Better Dispensers</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/mechanical-dispensers">Mechanical Dispensers</a></li>
+    <li><a href="https://modrinth.com/mod/fabric-dispenser-cauldron">Dispenser Cauldron</a></li>
+</ul>
+<h3 id="crafting">Crafting</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/logical-recipes">Logical Recipes</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/nbt-crafting">NBT Crafting</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/anvil-crushing-recipes">Anvil Crushing Recipes</a></li>
+    <li><a href="https://modrinth.com/mod/craftable-enchanted-golden-apple">Craftable Enchanted Golden Apple</a></li>
+    <li><a href="https://modrinth.com/mod/rottenfleshtofeather">Rotten Flesh to Feather</a></li>
+    <li><a href="https://modrinth.com/mod/glowpot">Glowing Potion</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/gimme-bundles">Gimme bundles!</a></li>
+    <li><a href="https://modrinth.com/mod/deepslatecutting">DeepslateCutting Fabric</a></li>
+    <li><a href="https://modrinth.com/mod/recipe-reshaper">Recipe Reshaper</a></li>
+</ul>
+<h3 id="graves-death">Death</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/vanilladeathchest-fabric">VanillaDeathChest</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/ueajs-graves">Ueaj&#39;s Graves</a></li>
+    <li><a href="https://modrinth.com/mod/universal-graves">Universal Graves</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/sewing-machine-utilities">Sewing Machine Utilities</a></li>
+    <li><a href="https://modrinth.com/mod/lenient-death">Lenient Death</a></li>
+    <li><a href="https://github.com/StoneLabs/working-graves">Working Graves</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/configured-keep-inventory">Configured Keep Inventory</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/keepinventory-command">keepinventory-command</a></li>
+    <li><a href="https://modrinth.com/mod/conditional_keep_inventory">Conditional Keep Inventory</a></li>
+    <li><a href="https://modrinth.com/mod/dddd">Don&#39;t Do Death Despawn</a></li>
+</ul>
+<h3 id="fishing">Fishing</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/old-fish-farm">Old Fish Farm</a></li>
+    <li><a href="https://modrinth.com/mod/fishing">Realistic Fishing</a></li>
+</ul>
+<h2 id="commands-chat">Commands / Chat</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/aliases">Aliases</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-essentials">Fabric Essentials</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/text-coloriser-plugin">Text Coloriser Plugin</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/handy-structures">Handy Structures</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/impersonate">Impersonate</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/player-roles-fabric">Player Roles</a></li>
+    <li><a href="https://github.com/Ashley1227/rich-chat">Rich Chat</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/setplayerdata">SetPlayerData</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabrictailor">Fabric Tailor</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/gestus">Gestus</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/image2map">Image2Map</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/chat-history">Chat History</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/commandaliases">Command Aliases</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/drogtor">Drogtor the Nickinator</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/hewo">Hewo</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabrication">Fabrication</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/walarynes-flymod">Walaryne&#39;s Fly Mod</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/itemflexer">ItemFlexer</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/tagboard">Tagboard</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/sewing-machine-utilities">Sewing Machine Utilities</a></li>
+    <li><a href="https://github.com/CodersInABarrel/Connected">Connected</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/globalspawn">GlobalSpawn</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/vanish">Vanish</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/chat">Chat+</a></li>
+    <li><a href="https://modrinth.com/mod/block-quantity-scanner">Block Quantity Scanner</a></li>
+    <li><a href="https://modrinth.com/mod/tabtps">TPS Tab</a></li>
+    <li><a href="https://modrinth.com/mod/disguiselib">DisguiseLib</a></li>
+    <li><a href="https://modrinth.com/mod/graphix">GraphiX</a></li>
+    <li><a href="https://modrinth.com/mod/pingspam">Pingspam</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/roll-fabric">Roll</a></li>
+    <li><a href="https://modrinth.com/mod/armorstandeditor">Armor Stand Editor</a></li>
+    <li><a href="https://modrinth.com/mod/mods-command">/Mods</a></li>
+    <li><a href="https://modrinth.com/mod/mod-info-cmd">Mod Info Command</a></li>
+    <li><a href="https://modrinth.com/mod/cyan">Cyan</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/command-alias-creator">Command Alias Creator</a></li>
+    <li><a href="https://modrinth.com/mod/defaultspawnpoints">Default Spawn Points</a></li>
+    <li><a href="https://modrinth.com/mod/equalnbt">EqualNBT</a></li>
+    <li><a href="https://modrinth.com/mod/mobdisguises">MobDisguises</a></li>
+    <li><a href="https://modrinth.com/mod/death-messages">Fabric Death Messages</a></li>
+    <li><a href="https://modrinth.com/mod/simplechat">SimpleChat - Chat mod for Fabric servers</a></li>
+    <li><a href="https://modrinth.com/mod/headindex">Head Index</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/morecmds">More Commands Mod</a></li>
+    <li><a href="https://modrinth.com/mod/ext">Extension</a></li>
+    <li><a href="https://modrinth.com/mod/styled-chat">Styled Chat</a></li>
+    <li><a href="https://github.com/John-Paul-R/Essential-Commands">Essential Commands</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/useful-commands">capit_alists&#39; gameplay commands</a></li>
+    <li><a href="https://modrinth.com/mod/player-pronouns">Player Pronouns</a></li>
+    <li><a href="https://modrinth.com/mod/editableplayernbthack">Editable Player NBT Hack</a></li>
+    <li><a href="https://modrinth.com/mod/damagefunction">Damage Function</a></li>
+    <li><a href="https://modrinth.com/mod/styled-nicknames">Styled Nicknames</a></li>
+    <li><a href="https://modrinth.com/mod/kanaify">Kanaify</a></li>
+    <li><a href="https://modrinth.com/mod/jsonchat">Json Chat Mod</a></li>
+    <li><a href="https://modrinth.com/mod/girlbossed">Girlbossed</a></li>
+    <li><a href="https://modrinth.com/mod/slashdiscord">slashdiscord</a></li>
+    <li><a href="https://modrinth.com/mod/server-chat-history">Server Chat History</a></li>
+    <li><a href="https://modrinth.com/mod/customcommands">Custom Commands</a></li>
+    <li><a href="https://modrinth.com/mod/slime">Slime</a></li>
+    <li><a href="https://modrinth.com/mod/regional-chat">Regional Chat</a></li>
+</ul>
+<h3 id="teleportation-homes">Warp / Homes</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-teleport">Random Teleport</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabrikommander">FabriKommander</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/sewing-machine-utilities">Sewing Machine Utilities</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabrictpa">FabricTPA</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabrichomes">FabricHomes</a></li>
+    <li><a href="https://modrinth.com/mod/multiworld">Multiworld</a></li>
+    <li><a href="https://modrinth.com/mod/cyansethome">CyanSetHome</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/lapis-warps">Lapis Warps</a></li>
+    <li><a href="https://modrinth.com/mod/simplehomes">SimpleHomes</a></li>
+    <li><a href="https://modrinth.com/mod/homabric">Homabric</a></li>
+    <li><a href="https://modrinth.com/mod/randomtp">RandomTP</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/quickhomes/">QuickHomes</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/quickteleports">QuickTeleports</a></li>
+</ul>
+<h2 id="claims-world-protection">World Protection</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/flan">Flan</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/sewing-machine-utilities">Sewing Machine Utilities</a></li>
+    <li><a href="https://github.com/NucleoidMC/leukocyte/releases">Leukocyte</a></li>
+    <li><a href="https://modrinth.com/mod/bineclaims">BineClaims</a></li>
+    <li><a href="https://modrinth.com/mod/spawn-protection-tweaks">SpawnProtectionTweaks</a></li>
+    <li><a href="https://modrinth.com/mod/goml-reserved">Get Off My Lawn ReServed</a></li>
+</ul>
+<h2 id="inventory">Inventory</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/lootstrap">Lootstrap</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/simpleserversorter">SimpleServerSorter</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/game-start">Game Start</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/starting-notes">Starting Notes</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/configured-keep-inventory">Configured Keep Inventory</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/inv-view">Inv View</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/keepinventory-command">keepinventory-command</a></li>
+    <li><a href="https://modrinth.com/mod/invsync">InvSync</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-sorting">Inventory Sorting</a></li>
+    <li><a href="https://modrinth.com/mod/kits">Kits</a></li>
+    <li><a href="https://modrinth.com/mod/conditional_keep_inventory">Conditional Keep Inventory</a></li>
+    <li><a href="https://modrinth.com/mod/renameit">RenameIt</a></li>
+    <li><a href="https://modrinth.com/mod/keepinventory">Better Keepinventory</a></li>
+</ul>
+<h2 id="server-management">Management</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/modupdater">ModUpdater</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynres">DynRes</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/username-remap">Username Remap</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/erroring-entity-remover">Erroring Entity Remover</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/servux">Servux</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/reloadannouncer">Reload Announcer</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/tellme">Tell me</a></li>
+    <li><a href="https://github.com/DrexHD/Fabric-Votifier">Votifier Fabric</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/wires">Wires</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/tbplugin">TBPlugin</a></li>
+    <li><a href="https://modrinth.com/mod/banhammer">Banhammer</a></li>
+    <li><a href="https://modrinth.com/mod/defibrillator">Defibrillator</a></li>
+    <li><a href="https://modrinth.com/mod/fabricexporter">Exporter</a></li>
+    <li><a href="https://modrinth.com/mod/holograms">Holographic</a></li>
+    <li><a href="https://modrinth.com/mod/fabric-acb">Autocomplete Command Blacklist</a></li>
+    <li><a href="https://modrinth.com/mod/no_player_limit">No Player Limit</a></li>
+    <li><a href="https://modrinth.com/mod/flashfreeze">FlashFreeze</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabrilous-updater">Fabrilous Updater</a></li>
+    <li><a href="https://modrinth.com/mod/semblance">Semblance</a></li>
+    <li><a href="https://github.com/maxheyn/progression">Progression</a></li>
+    <li><a href="https://modrinth.com/mod/actioninventory">Action Inventory Mod</a></li>
+    <li><a href="https://modrinth.com/mod/fabric-sql-whitelister">SQL Whitelister</a></li>
+    <li><a href="https://modrinth.com/mod/enforce-gamemode">Gamemode Lock</a></li>
+</ul>
+<h3 id="multiworld-dimensions">Multiworlds</h3>
+<ul>
+    <li><a href="https://modrinth.com/mod/multiworld">Multiworld</a></li>
+</ul>
+<h3 id="resource-packs">Resourcepacks</h3>
+<ul>
+    <li><a href="https://modrinth.com/mod/switchableresourcepacks">SwitchableResourcepacks</a></li>
+    <li><a href="https://modrinth.com/mod/refreshresource">RefreshResource</a></li>
+    <li><a href="https://modrinth.com/mod/polypack_host">Polypack</a></li>
+</ul>
+<h3 id="console-logs">Console/Logs</h3>
+<ul>
+    <li><a href="https://github.com/NucleoidMC/anonymize/releases">Anonymize</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/jline-for-minecraft-dedicated-server">JLine for Server</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-console">Fabric Console</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/shut-up-console">Shut Up Console</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/mclo-gs">mclo.gs</a></li>
+    <li><a href="https://modrinth.com/mod/notenoughcrashes">Not Enough Crashes</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/cyanide-fabric">Cyanide</a></li>
+</ul>
+<h3 id="logging-auditing">Logging/auditing</h3>
+<ul>
+    <li><a href="https://modrinth.com/mod/ledger">Ledger</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/sewing-machine-utilities">Sewing Machine Utilities</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/commandspy">CommandSpy</a></li>
+    <li><a href="https://modrinth.com/mod/xbRmRCv2">Ban Trigger</a></li>
+    <li><a href="https://modrinth.com/mod/ore-readout">Ore-Readout</a></li>
+</ul>
+<h3 id="anticheat-anti-x-ray">Anticheat/Anti X-ray</h3>
+<ul>
+    <li><a href="https://modrinth.com/mod/sax">Simple Anti X-ray</a></li>
+    <li><a href="https://modrinth.com/mod/golfiv">Golf IV</a></li>
+    <li><a href="https://github.com/CoolMineman/CheaterDeleter">Cheater Deleter</a></li>
+    <li><a href="https://modrinth.com/mod/anti-xray">Anti Xray</a></li>
+</ul>
+<h3 id="server-list-modifications">Server List &amp; Tablist modifications</h3>
+<ul>
+    <li><a href="https://github.com/Amb0s/random-server-icon/releases">Random Server Icon</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/serverping">Server Ping</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/minimotd-fabric">MiniMOTD</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/sewing-machine-utilities">Sewing Machine Utilities</a></li>
+    <li><a href="https://modrinth.com/mod/tab">Fabric Tab List</a></li>
+    <li><a href="https://modrinth.com/mod/styledplayerlist">Styled Player List</a></li>
+    <li><a href="https://modrinth.com/mod/tabtps">TabTPS</a></li>
+</ul>
+<h3 id="backups">Backups</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/textile-backup">Textile Backup</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/auto-backup">Auto Backup</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/minesave">Minesave</a></li>
+</ul>
+<h3 id="profiling-debugging">Profiling/Debugging</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/spark">Spark</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet">Carpet</a></li>
+    <li><a href="https://modrinth.com/mod/mixintrace">MixinTrace</a></li>
+    <li><a href="https://modrinth.com/mod/blame-fabric">Blame</a></li>
+    <li><a href="https://modrinth.com/mod/schwarz">Schwarz</a></li>
+</ul>
+<h3 id="permissions-roles">Permissions</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/player-roles-fabric">Player Roles</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/teamperms">TeamPerms</a></li>
+    <li><a href="https://modrinth.com/mod/luckperms">LuckPerms</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/cyber-permissions">CyberPerms</a></li>
+    <li><a href="https://modrinth.com/mod/better-op">Better Op</a></li>
+</ul>
+<h3 id="proxy-forwarding-bungeecord-waterfall-velocity-">Proxy</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/crossstitch">CrossStitch</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-forwarding">Fabric Forwarding</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/trampoline">Trampoline</a></li>
+    <li><a href="https://modrinth.com/mod/fabricproxy-lite">FabricProxy</a></li>
+</ul>
+<h3 id="protocol-tricks-cross-version-edition-compatibility-resource-packs-for-client-required-mods">Multiversion Support</h3>
+<ul>
+    <li><a href="https://viaversion.com/fabric">ViaFabric</a></li>
+    <li><a href="https://github.com/GeyserMC/Geyser/wiki/Geyser-Fabric">Geyser</a></li>
+    <li><a href="https://github.com/TheEpicBlock/PolyMc">PolyMc</a></li>
+</ul>
+<h2 id="discord">Discord Chat</h3>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-discord-link">Discord Link</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/interweave">Interweave</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/disfabric">DisFabric</a></li>
+    <li><a href="https://github.com/HeyItsMeNobody/discordfabriclink">Discord-Fabric Link</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/discord-fabric-whitelister">Discord Fabric Whitelister</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/dcintegration-fabric">Discord Integration Fabric</a></li>
+    <li><a href="https://modrinth.com/mod/mcdiscordchat">MCDiscordChat</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/qchatlink">QChatLink</a></li>
+    <li><a href="https://modrinth.com/mod/ul4zTWk4">TomsServerUtils</a></li>
+</ul>
+<h2 id="gamemodes-minigames">Gamemodes / Minigames</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/battlemod">Battle Mod</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/manhunt-fabric">Manhunt</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/solar-apocalypse-refabricated">Solar Apocalypse</a></li>
+    <li><a href="https://github.com/aws404/Fabric-ObserverMode">Fabric Observer Gamemode</a></li>
+    <li><a href="https://modrinth.com/mod/factions">Factions</a></li>
+    <li><a href="https://modrinth.com/mod/serversidetetris">Tetris</a></li>
+    <li><a href="https://modrinth.com/mod/chest-games">Chest Games</a></li>
+    <li><a href="https://modrinth.com/mod/minecraft-manhunt">Manhunt</a></li>
+    <li><a href="https://github.com/NucleoidMC">Nucleoid</a></li>
+    <li><a href="https://modrinth.com/mod/level-border">Level Border</a></li>
+    <li><a href="https://modrinth.com/mod/gamemodes">Game modes</a></li>
+</ul>
+<h2 id="worldgen">Worldgen</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/simplex-terrain-generation">Simplex Terrain Generation</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/cave-biomes">Cave Biomes</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-survival-island">Survival Island</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/nowatercaves">NoWaterCaves</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/no-lakes">No Lakes</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/lakeside">Lakeside</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/smoother-bedrock">Smoother Bedrock</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves-fabric">YUNG&#39;s Better Caves</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/wool-temples">Wool Temples</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/modern-beta">Modern Beta</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/classic-beaches">Classic Beaches</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-fabric">YUNG&#39;s Better Mineshafts</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/mo-structures">Mo&#39; Structures</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/secureseed">SecureSeed</a></li>
+    <li><a href="https://modrinth.com/mod/terra">Terra</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/structure-world">Structure World</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/tatters-skyblock">Tatters Skyblock</a></li>
+    <li><a href="https://modrinth.com/mod/stoneholm">Stoneholm</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-fabric">YUNG&#39;s Better Strongholds</a></li>
+    <li><a href="https://modrinth.com/mod/structplus">Struct Plus</a></li>
+    <li><a href="https://modrinth.com/mod/smoothbedrock-by-blayyke">SmoothBedrock By Blayyke</a></li>
+    <li><a href="https://modrinth.com/mod/swamp-oak-redux">Swamp Oak Redux</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/simply-improved-terrain-fabric">Simply Improved Terrain</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/castle-dungeons">Castle Dungeons</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/cavenabler">Cavenabler</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/stonevaults-dungeons-towers">Stonevaults, Dungeons &amp; Towers</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise-fabric">When Dungeons Arise</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/terralith">Terralith ~ Overworld Evolved</a></li>
+    <li><a href="https://modrinth.com/mod/protosky">ProtoSky</a></li>
+    <li><a href="https://modrinth.com/mod/bettermossimo">Better Moss IMO</a></li>
+    <li><a href="https://modrinth.com/mod/spaghettitrees">SpaghettiTrees</a></li>
+    <li><a href="https://modrinth.com/mod/sky-villages">Sky Villages</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/yeet-the-tall-grass">Yeet The Tall Grass!</a></li>
+</ul>
+<h2 id="economy-shops">Economy/Shops</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-economy">Economy</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/grand-economy">Grand Economy</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/sewing-machine-utilities">Sewing Machine Utilities</a></li>
+    <li><a href="https://modrinth.com/mod/gshop">GShop</a></li>
+    <li><a href="https://modrinth.com/mod/diamond-economy">Diamond Economy</a></li>
+</ul>
+<h2 id="web-maps">Web Maps</h2>
+<ul>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynmapforge/files/all">Dynmap&reg;</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/bluemap">Blue Map</a></li>
+    <li><a href="https://github.com/comp500/tinymap/">Tiny Map</a></li>
+</ul>
+<h2 id="npcs">NPC</h2>
+<ul>
+    <li><a href="https://modrinth.com/mod/Taterzens">Taterzens</a></li>
+    <li><a href="https://modrinth.com/mod/tradernpcs">TraderNPCs</a></li>
+    <li><a href="https://modrinth.com/mod/blacksmiths">Blacksmiths</a></li>
+</ul>
+<h2 id="cursed">Cursed</h2>
+<ul>
+    <li><a href="https://modrinth.com/mod/bedrockbreaking">Bedrock Breaking</a></li>
+    <li><a href="https://modrinth.com/mod/cardboard">Cardboard</a></li>
+    <li><a href="https://modrinth.com/mod/packetignore">PacketIgnore</a></li>
+    <li><a href="https://modrinth.com/mod/volatile-entity-cramming">Volatile Entity Cramming</a></li>
+</ul>
+
+
+</div>
+
+</body>
+</html> 
